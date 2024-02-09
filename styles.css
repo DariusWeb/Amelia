@@ -1,0 +1,157 @@
+/* Utility */
+.dancing-font {
+    font-family: 'Dancing Script', cursive;
+}
+
+.gown-font {
+    font-family: 'Gowun Batang', serif;
+}
+
+.somon-color {
+    color: #EB9884;
+}
+
+.text-14 {
+    font-size: 14px;   
+}
+
+.text-24 {
+    font-size: 24px;
+}
+
+.text-32 {
+    font-size: 32px;
+}
+
+.text-45 {
+    font-size: 45px;
+}
+
+.text-65 {
+    font-size: 65px;
+}
+
+font-semibold {
+    font-weight: 600;
+}
+
+/* ============================= */
+body {
+    color: #BAA4A0;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bg-img {
+    position: absolute;
+    max-width: 900px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrap {
+    position: relative;
+    background-image: url('./img/bg.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 67% 40px 35px;
+}
+
+.container .name {
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.content {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.content p {
+    margin: 0;
+    padding: 0;
+} 
+
+.content .names {
+    margin: 5px 0 15px;
+}
+
+.content .date {
+    margin: 30px 0 45px;
+    font-size: 20px;
+}
+
+.content .number {
+    font-size: 24px;
+    font-weight: 800;
+    color: #EB9884;
+    padding: 10px;
+    margin: 0 5px;
+    border-left: 1px solid #EB9884;
+    border-right: 1px solid #EB9884;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+}
+
+.church,
+.restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 35%;
+    font-size: 14px;
+}
+
+.church > img,
+.restaurant > img {
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.outro {
+    margin-top: 45px;
+    font-weight: 700;
+}
+
+.direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.direction a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 25px;
+    border: 1px solid #BAA4A0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #BAA4A0;
+}
+
+.direction img {
+    color: #BAA4A0;
+    width: 15px;
+}
