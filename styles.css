@@ -132,6 +132,27 @@ body {
     font-weight: 700;
 }
 
+.outro > div:last-child {
+    margin-top: 35px;
+}
+
+.contact a {
+    color: #EB9884;
+    text-decoration: none;
+}
+
+.contact a:nth-child(2) {
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    color: #a9dbc3;
+}
+
+.contact img {
+    width: 25px;
+    display: none;
+}
+
 .direction {
     display: flex;
     justify-content: space-between;
@@ -154,4 +175,46 @@ body {
 .direction img {
     color: #BAA4A0;
     width: 15px;
+}
+
+.remaining-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.remaining-time > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.remaining-time > div > span:nth-child(odd) {
+    font-size: 24px;
+    color: #EB9884;
+    border: 1px solid #BAA4A0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 45px;
+    height: 30px;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+.remaining-time > div > span:nth-child(even) {
+    font-size: 14px;;
+}
+
+@media screen and (max-width: 550px) {
+    .direction {
+        flex-direction: column;
+    }
+
+    .events {
+        justify-content: space-around;
+    }
 }
